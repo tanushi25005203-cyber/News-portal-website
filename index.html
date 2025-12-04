@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Magazine</title>
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            background: #f4f4f4;
+            color: #333;
+        }
+
+        /* Header */
+        header {
+            background: #111;
+            color: #fff;
+            padding: 20px 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 28px;
+            letter-spacing: 1px;
+        }
+        nav a {
+            color: #fff;
+            margin-left: 20px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        /* Main hero section */
+        .hero {
+            background: url('https://via.placeholder.com/1200x500') center/cover no-repeat;
+            height: 400px;
+            color: white;
+            display: flex;
+            align-items: flex-end;
+            padding: 40px;
+        }
+        .hero h2 {
+            background: rgba(0,0,0,0.6);
+            padding: 15px 20px;
+            border-radius: 4px;
+        }
+
+        /* Layout for content */
+        .container {
+            display: flex;
+            padding: 30px;
+            gap: 20px;
+        }
+
+        /* Main articles */
+        .main-content {
+            flex: 2;
+        }
+        .article {
+            background: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 4px;
+        }
+        .article img {
+            width: 100%;
+            border-radius: 4px;
+        }
+        .article h3 {
+            margin-top: 10px;
+        }
+
+        /* Sidebar */
+        .sidebar {
+            flex: 1;
+        }
+        .sidebar-box {
+            background: white;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 4px;
+        }
+        .sidebar-box h4 {
+            margin-top: 0;
+        }
+
+        /* Footer */
+        footer {
+            background: #222;
+            color: white;
+            text-align: center;
+            padding: 25px;
+            margin-top: 30px;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Modern Magazine</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">World</a>
+            <a href="#">Tech</a>
+            <a href="#">Style</a>
+            <a href="#">Sports</a>
+        </nav>
+    </header>
+
+    <!-- Hero Banner -->
+    <div class="hero">
+        <h2>Breaking News: Stunning Developments Unfold Worldwide</h2>
+    </div>
+
+    <!-- Main Layout -->
+    <div class="container">
+
+        <!-- Main Content -->
+        <div class="main-content">
+            <div class="article">
+                <img src="https://c.files.bbci.co.uk/44FB/production/_106495671_index.jpg" alt="">
+                <h3>Major Event Shocks the World</h3>
+               </div>
+
+            <div class="article">
+                <img src="https://via.placeholder.com/800x400" alt="">
+                <h3>Technology Trends of 2025</h3>
+                
+            </div>
+        </div>
+
+        <!-- Sidebar -->
+        <div class="sidebar">
+
+            <div class="sidebar-box">
+                <h4>Popular Stories</h4>
+                <ul>
+                    <li>Climate Change Updates</li>
+                    <li>Top 10 Travel Destinations</li>
+                    <li>New Innovations in AI</li>
+                </ul>
+            </div>
+
+            <div class="sidebar-box">
+                <h4>Advertisement</h4>
+                <img src="https://via.placeholder.com/300x250" alt="Ad" style="width:100%; border-radius:4px;">
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        &copy; 2025 Modern Magazine. All Rights Reserved.
+    </footer>
+
+</body>
+</html>
